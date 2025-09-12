@@ -6,33 +6,33 @@ const projects = [
   {
     title: "NEON STREETWEAR",
     category: "E-commerce",
-    description: "Bold online store for underground streetwear brand with custom animations and AR try-on.",
+    description: "Gedurfde online winkel voor underground streetwear merk met custom animaties en AR paspop.",
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
-    tags: ["React", "E-commerce", "AR", "Animation"],
+    tags: ["React", "E-commerce", "AR", "Animatie"],
     color: "accent",
   },
   {
     title: "CYBER MUSIC",
     category: "Entertainment",
-    description: "Interactive music platform with AI-powered playlists and immersive visualizations.",
+    description: "Interactief muziekplatform met AI-powered playlists en meeslepende visualisaties.",
     image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
-    tags: ["Next.js", "AI", "Music", "WebGL"],
+    tags: ["Next.js", "AI", "Muziek", "WebGL"],
     color: "primary",
   },
   {
     title: "URBAN COLLECTIVE",
-    category: "Creative Agency",
-    description: "Portfolio site for creative collective with dynamic grid layouts and smooth transitions.",
+    category: "Creatief Bureau",
+    description: "Portfolio site voor creatief collectief met dynamische grid layouts en vloeiende transities.",
     image: "https://images.unsplash.com/photo-1460472178825-e5240623afd5?w=800&h=600&fit=crop",
-    tags: ["Portfolio", "Creative", "Grid", "Animation"],
+    tags: ["Portfolio", "Creatief", "Grid", "Animatie"],
     color: "accent",
   },
   {
     title: "GAMING HUB",
     category: "Gaming",
-    description: "Tournament platform with real-time leaderboards and interactive gaming experiences.",
+    description: "Toernooiplatform met real-time leaderboards en interactieve gaming-ervaringen.",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop",
-    tags: ["Gaming", "Real-time", "Tournament", "WebSocket"],
+    tags: ["Gaming", "Real-time", "Toernooi", "WebSocket"],
     color: "primary",
   },
 ];
@@ -43,12 +43,12 @@ const Portfolio = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-6xl font-black mb-6">
-            <span className="text-foreground">FEATURED</span>
+            <span className="text-foreground">UITGELICHTE</span>
             <br />
-            <span className="gradient-text">PROJECTS</span>
+            <span className="gradient-text">PROJECTEN</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover how we've helped brands create unforgettable digital experiences.
+            Ontdek hoe we merken hebben geholpen onvergetelijke digitale ervaringen te creëren.
           </p>
         </div>
         
@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <div className="flex gap-3">
                   <Button variant="neon" size="sm" className="flex-1">
                     <ExternalLink className="w-4 h-4" />
-                    View Live
+                    Bekijk Live
                   </Button>
                   <Button variant="ghost" size="sm">
                     <Code className="w-4 h-4" />
@@ -115,7 +115,7 @@ const Portfolio = () => {
         
         <div className="text-center mt-16">
           <Button variant="hero" size="lg">
-            View All Projects
+            Bekijk Alle Projecten
           </Button>
         </div>
       </div>

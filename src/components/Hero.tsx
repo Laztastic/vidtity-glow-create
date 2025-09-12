@@ -25,7 +25,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-card/50 border border-primary/30 rounded-full backdrop-blur-sm">
             <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium">Next-Gen Web Design</span>
+            <span className="text-sm font-medium">Next-Gen Webdesign</span>
           </div>
           
           {/* Main Heading */}
@@ -37,19 +37,19 @@ const Hero = () => {
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground max-w-3xl mx-auto font-medium">
-            Bold, dynamic web experiences for <span className="text-accent font-bold">youthful brands</span>, 
-            streetwear, and creative businesses that dare to stand out.
+            Gedurfde, dynamische web-ervaringen voor <span className="text-accent font-bold">jonge merken</span>, 
+            streetwear en creatieve bedrijven die durven op te vallen.
           </p>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <Button variant="hero" size="xl" className="group">
-              Start Your Project
+              Start Jouw Project
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="neon" size="xl" className="group">
               <Zap className="w-5 h-5" />
-              View Our Work
+              Bekijk Ons Werk
             </Button>
           </div>
           
@@ -57,15 +57,15 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-8 pt-12">
             <div className="text-center">
               <div className="text-3xl font-black gradient-text">100+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Projects</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wide">Projecten</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-black gradient-text">50+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Brands</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wide">Merken</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black gradient-text">3 Years</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Experience</div>
+              <div className="text-3xl font-black gradient-text">3 Jaar</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wide">Ervaring</div>
             </div>
           </div>
         </div>

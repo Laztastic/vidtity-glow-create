@@ -5,39 +5,39 @@ import { Palette, Code, Zap, Smartphone, Globe, Rocket } from "lucide-react";
 const services = [
   {
     icon: Palette,
-    title: "Brand Identity",
-    description: "Bold visual identities that capture the energy and spirit of youthful brands.",
-    features: ["Logo Design", "Color Palettes", "Typography", "Brand Guidelines"],
+    title: "Merkidentiteit",
+    description: "Gedurfde visuele identiteiten die de energie en geest van jonge merken vastleggen.",
+    features: ["Logo Ontwerp", "Kleurenpaletten", "Typografie", "Merkrichtlijnen"],
   },
   {
     icon: Code,
     title: "Web Development",
-    description: "Custom websites built with cutting-edge tech for maximum impact and performance.",
-    features: ["React & Next.js", "Mobile-First", "SEO Optimized", "Lightning Fast"],
+    description: "Maatwerk websites gebouwd met geavanceerde technologie voor maximale impact.",
+    features: ["React & Next.js", "Mobile-First", "SEO Geoptimaliseerd", "Bliksemsnelle"],
   },
   {
     icon: Smartphone,
-    title: "Mobile Design",
-    description: "Responsive designs that look incredible on every device and screen size.",
-    features: ["iOS & Android", "Touch Optimized", "App-like Feel", "Progressive Web Apps"],
+    title: "Mobiel Design",
+    description: "Responsive designs die er ongelooflijk uitzien op elk apparaat en schermformaat.",
+    features: ["iOS & Android", "Touch Geoptimaliseerd", "App-achtig Gevoel", "Progressive Web Apps"],
   },
   {
     icon: Globe,
     title: "E-commerce",
-    description: "Converting online stores that turn visitors into loyal customers.",
-    features: ["Shopify", "WooCommerce", "Payment Integration", "Inventory Management"],
+    description: "Converterende online winkels die bezoekers omzetten in trouwe klanten.",
+    features: ["Shopify", "WooCommerce", "Betaalintegratie", "Voorraadbeheer"],
   },
   {
     icon: Zap,
-    title: "Performance",
-    description: "Blazing-fast websites optimized for speed and user experience.",
-    features: ["Core Web Vitals", "Image Optimization", "CDN Integration", "Caching"],
+    title: "Prestaties",
+    description: "Bliksemsnelle websites geoptimaliseerd voor snelheid en gebruikerservaring.",
+    features: ["Core Web Vitals", "Afbeelding Optimalisatie", "CDN Integratie", "Caching"],
   },
   {
     icon: Rocket,
-    title: "Launch & Growth",
-    description: "End-to-end support from concept to launch and beyond.",
-    features: ["Strategy", "Analytics", "Maintenance", "Growth Hacking"],
+    title: "Lancering & Groei",
+    description: "End-to-end ondersteuning van concept tot lancering en daarbuiten.",
+    features: ["Strategie", "Analytics", "Onderhoud", "Growth Hacking"],
   },
 ];
 
@@ -47,12 +47,12 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-6xl font-black mb-6">
-            <span className="gradient-text">SERVICES</span> THAT
+            <span className="gradient-text">DIENSTEN</span> DIE
             <br />
-            <span className="text-foreground">ELEVATE BRANDS</span>
+            <span className="text-foreground">MERKEN VERHEFFEN</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We specialize in creating digital experiences that resonate with the next generation.
+            Wij specialiseren ons in het creëren van digitale ervaringen die resoneren met de nieuwe generatie.
           </p>
         </div>
         
@@ -87,7 +87,7 @@ const Services = () => {
                 </ul>
                 
                 <Button variant="ghost" className="w-full group-hover:text-accent transition-colors">
-                  Learn More
+                  Meer Informatie
                 </Button>
               </Card>
             );
@@ -96,7 +96,7 @@ const Services = () => {
         
         <div className="text-center mt-16">
           <Button variant="cyber" size="lg">
-            Get Custom Quote
+            Krijg Offerte op Maat
           </Button>
         </div>
       </div>
