@@ -6,9 +6,9 @@ const projects = [
   {
     title: "VONQUE.BE",
     category: "Interieur",
-    description: "Elegante website voor interieurwinkel met moderne productcatalogus en inspirerende galerijen.",
+    description: "Elegante website voor interieurdesign en inspirerende galerijen om bij weg te dromen.",
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
-    tags: ["Interieur", "E-commerce", "Catalogus", "Design"],
+    tags: ["Interieur", "Projecten", "Design"],
     color: "accent",
   },
   {
@@ -22,9 +22,9 @@ const projects = [
   {
     title: "VANEYCKTYRECENTER.BE",
     category: "Automotive",
-    description: "Moderne website voor bandenhandelaar met online catalogus en afspraak planning systeem.",
+    description: "Subtiele website voor bandenhandelaar.",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-    tags: ["Automotive", "Banden", "Planning", "Service"],
+    tags: ["Automotive", "Banden", "Logo ontwerp", "Service"],
     color: "accent",
   },
 ];
