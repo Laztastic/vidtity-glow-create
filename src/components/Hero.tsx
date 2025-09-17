@@ -1,15 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30" style={{
+      backgroundImage: `url(${heroImage})`
+    }} />
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background/80 to-primary/10" />
@@ -54,20 +51,7 @@ const Hero = () => {
           </div>
           
           {/* Stats */}
-          <div className="flex flex-wrap justify-center gap-8 pt-12">
-            <div className="text-center">
-              <div className="text-3xl font-black gradient-text">100+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Projecten</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-black gradient-text">50+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Merken</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-black gradient-text">3 Jaar</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">Ervaring</div>
-            </div>
-          </div>
+          
         </div>
       </div>
       
@@ -77,8 +61,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-accent rounded-full mt-2 animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
