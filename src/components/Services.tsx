@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Palette, Code, Zap, Smartphone, Globe, Rocket } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -8,36 +9,42 @@ const services = [
     title: "Merkidentiteit",
     description: "Gedurfde visuele identiteiten die de energie en geest van jonge merken vastleggen.",
     features: ["Logo Ontwerp", "Kleurenpaletten", "Typografie", "Merkrichtlijnen"],
+    link: "/diensten/merkidentiteit",
   },
   {
     icon: Code,
     title: "Web Development",
     description: "Maatwerk websites gebouwd met geavanceerde technologie voor maximale impact.",
     features: ["React & Next.js", "Mobile-First", "SEO Geoptimaliseerd", "Bliksemsnelle"],
+    link: "/diensten/web-development",
   },
   {
     icon: Smartphone,
     title: "Mobiel Design",
     description: "Responsive designs die er ongelooflijk uitzien op elk apparaat en schermformaat.",
     features: ["iOS & Android", "Touch Geoptimaliseerd", "App-achtig Gevoel", "Progressive Web Apps"],
+    link: "/diensten/mobiel-design",
   },
   {
     icon: Globe,
     title: "E-commerce",
     description: "Converterende online winkels die bezoekers omzetten in trouwe klanten.",
     features: ["Shopify", "WooCommerce", "Betaalintegratie", "Voorraadbeheer"],
+    link: "/diensten/ecommerce",
   },
   {
     icon: Zap,
     title: "Prestaties",
     description: "Bliksemsnelle websites geoptimaliseerd voor snelheid en gebruikerservaring.",
     features: ["Core Web Vitals", "Afbeelding Optimalisatie", "CDN Integratie", "Caching"],
+    link: "/diensten/prestaties",
   },
   {
     icon: Rocket,
     title: "Lancering & Groei",
     description: "End-to-end ondersteuning van concept tot lancering en daarbuiten.",
     features: ["Strategie", "Analytics", "Onderhoud", "Growth Hacking"],
+    link: "/diensten/lancering-groei",
   },
 ];
 
@@ -86,8 +93,10 @@ const Services = () => {
                   ))}
                 </ul>
                 
-                <Button variant="ghost" className="w-full group-hover:text-accent transition-colors">
-                  Meer Informatie
+                <Button variant="ghost" className="w-full group-hover:text-accent transition-colors" asChild>
+                  <Link to={service.link}>
+                    Meer Informatie
+                  </Link>
                 </Button>
               </Card>
             );
