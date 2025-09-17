@@ -30,7 +30,7 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-black leading-none">
-            <span className="gradient-text">VIDTITY</span>
+            <span className="gradient-text">VIDTIFY</span>
             <br />
             <span className="text-foreground">DESIGN</span>
           </h1>
