@@ -79,7 +79,7 @@ const PrestatiesPage = () => {
                   <li>• Prioritized improvement plan</li>
                   <li>• Competitor benchmarking</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€495</div>
+                
               </Card>
               
               <Card className="p-8 bg-gradient-card cyber-border border-accent/50">
@@ -91,7 +91,7 @@ const PrestatiesPage = () => {
                   <li>• Monitoring & maintenance</li>
                   <li>• Performance rapportage</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€2.995</div>
+                
               </Card>
             </div>
           </div>

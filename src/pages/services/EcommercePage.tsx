@@ -80,7 +80,7 @@ const EcommercePage = () => {
                   <li>• Responsive design</li>
                   <li>• SSL & hosting</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€3.995</div>
+                
               </Card>
               
               <Card className="p-8 bg-gradient-card cyber-border border-accent/50">
@@ -93,7 +93,7 @@ const EcommercePage = () => {
                   <li>• Advanced SEO & marketing tools</li>
                   <li>• 6 maanden support</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€8.995</div>
+                
               </Card>
             </div>
           </div>

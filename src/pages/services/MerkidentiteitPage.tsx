@@ -81,10 +81,6 @@ const MerkidentiteitPage = () => {
                   <li>• Social media templates</li>
                   <li>• Briefhoofd & factuur templates</li>
                 </ul>
-                <div className="mt-6 pt-6 border-t border-border">
-                  <div className="text-3xl font-black text-accent mb-2">€2.995</div>
-                  <div className="text-sm text-muted-foreground">Eenmalige investering</div>
-                </div>
               </Card>
             </div>
           </div>

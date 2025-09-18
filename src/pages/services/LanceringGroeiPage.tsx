@@ -79,7 +79,7 @@ const LanceringGroeiPage = () => {
                   <li>• Analytics & tracking implementation</li>
                   <li>• 1 maand launch support</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€1.995</div>
+                
               </Card>
               
               <Card className="p-8 bg-gradient-card cyber-border border-accent/50">
@@ -92,7 +92,7 @@ const LanceringGroeiPage = () => {
                   <li>• Dedicated growth manager</li>
                   <li>• Quarterly strategy reviews</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€2.995/maand</div>
+                
               </Card>
             </div>
           </div>

@@ -81,7 +81,7 @@ const WebDevelopmentPage = () => {
                   <li>• Contact formulier</li>
                   <li>• Google Analytics</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€1.995</div>
+                
               </Card>
               
               <Card className="p-8 bg-gradient-card cyber-border border-accent/50">
@@ -94,7 +94,7 @@ const WebDevelopmentPage = () => {
                   <li>• Performance monitoring</li>
                   <li>• 3 maanden ondersteuning</li>
                 </ul>
-                <div className="text-3xl font-black text-accent">€4.995</div>
+                
               </Card>
             </div>
           </div>
