@@ -5,14 +5,14 @@ const projects = [{
   title: "VONQUE.BE",
   category: "Interieur",
   description: "Elegante website voor interieurdesign met persoonlijke verhaal en inspirerende galerijen.",
-  image: "https://imgur.com/a/ORAr8qh?w=800&h=600&fit=crop",
+  image: "https://i.imgur.com/Cvr7Wt6.jpeg?w=800&h=600&fit=crop",
   tags: ["Interieur", "Projecten", "Gallerij", "Design"],
   color: "accent"
 }, {
   title: "LAMBRECS.BE",
   category: "Fotografie",
   description: "Professionele portfolio website voor foto- en videograaf met dynamische galerij.",
-  image: "https://imgur.com/a/0O9UEL0?w=800&h=600&fit=crop",
+  image: "https://i.imgur.com/Cvr7Wt6.jpeg?w=800&h=600&fit=crop",
   tags: ["Fotografie", "Portfolio", "Galerij", "Videografie"],
   color: "primary"
 }, {
