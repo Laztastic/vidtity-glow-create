@@ -68,9 +68,11 @@ const Portfolio = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button variant="neon" size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4" />
-                    Bekijk Live
+                  <Button variant="neon" size="sm" className="flex-1" asChild>
+                    <a href="https://lambrecs.be" target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4" />
+                      Bekijk Live
+                    </a>
                   </Button>
                   
                   
