@@ -15,7 +15,7 @@ const Contact = () => {
             <span className="gradient-text">TE BEGINNEN?</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Laten we samen iets buitengewoons creëren. Stuur ons een bericht en we nemen binnen 24 uur contact met je op.
+            Laten we samen iets buitengewoons creëren. Stuur ons een bericht en we nemen asap contact met je op.
           </p>
         </div>
         
@@ -49,7 +49,7 @@ const Contact = () => {
               <div>
                 <label className="block text-sm font-medium mb-2">Project Type</label>
                 <Input 
-                  placeholder="bijv. E-commerce, Portfolio, Web App" 
+                  placeholder="bijv. E-commerce, Portfolio, Webpage" 
                   className="bg-background/50 border-primary/30 focus:border-accent"
                 />
               </div>
@@ -87,8 +87,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-lg mb-2">Mail Ons</h4>
                   <p className="text-muted-foreground mb-2">Klaar om je project te starten?</p>
-                  <a href="mailto:hello@vidtitydesign.com" className="text-accent hover:text-accent-glow font-medium">
-                    hello@vidtitydesign.com
+                  <a href="mailto:info@vidtifydesign.be" className="text-accent hover:text-accent-glow font-medium">
+                    info@vidtifydesign.be
                   </a>
                 </div>
               </div>
@@ -117,16 +117,15 @@ const Contact = () => {
                 <div>
                   <h4 className="font-bold text-lg mb-2">Snel Spoor</h4>
                   <p className="text-muted-foreground mb-2">Urgent project? Wij staan voor je klaar.</p>
-                  <p className="text-accent font-medium">48-uur levering beschikbaar</p>
                 </div>
               </div>
             </Card>
             
             {/* Social Links */}
             <div className="pt-8">
-              <h4 className="font-bold text-lg mb-4 text-center">Volg Onze Reis</h4>
+              <h4 className="font-bold text-lg mb-4 text-center">Volg ons op Instagram</h4>
               <div className="flex justify-center gap-4">
-                {["Instagram", "Twitter", "Dribbble", "Behance"].map((platform) => (
+                {["Instagram"].map((platform) => (
                   <Button key={platform} variant="ghost" size="sm" className="hover:text-accent">
                     {platform}
                   </Button>

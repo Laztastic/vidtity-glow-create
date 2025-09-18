@@ -18,9 +18,9 @@ const projects = [{
 }, {
   title: "VANEYCKTYRECENTER.BE",
   category: "Automotive",
-  description: "Moderne website voor bandenhandelaar met online catalogus en afspraak planning systeem.",
-  image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-  tags: ["Automotive", "Banden", "Planning", "Service"],
+  description: "Moderne website voor bandenhandelaar en afspraak planning systeem.",
+  image: "https://impro.usercontent.one/appid/oneComWsb/domain/vaneycktyrecenter.be/media/vaneycktyrecenter.be/onewebmedia/Final%20ICON.png?etag=%22d360fd-64ed8b07%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=743%2B456&extract=0%2B0%2B743%2B455?w=800&h=600&fit=crop",
+  tags: ["Automotive", "Banden", "Service"],
   color: "accent"
 }];
 const Portfolio = () => {
