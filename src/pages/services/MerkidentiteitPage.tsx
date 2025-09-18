@@ -153,7 +153,7 @@ const MerkidentiteitPage = () => {
               {
                 icon: Zap,
                 title: "Snelle Levering",
-                description: "Van concept tot finale levering in slechts 2-3 weken. Geen eindeloze revisieronden, wel resultaat."
+                description: "Van concept tot finale levering in slechts 4-5 weken. Geen eindeloze revisieronden, wel resultaat."
               },
               {
                 icon: Target,
