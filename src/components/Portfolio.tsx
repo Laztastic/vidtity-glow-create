@@ -12,7 +12,7 @@ const projects = [{
   title: "LAMBRECS.BE",
   category: "Fotografie",
   description: "Professionele portfolio website voor foto- en videograaf met dynamische galerij.",
-  image: "https://i.imgur.com/Cvr7Wt6.jpeg?w=800&h=600&fit=crop",
+  image: "https://i.imgur.com/cwOBL4D.png?w=800&h=600&fit=crop",
   tags: ["Fotografie", "Portfolio", "Galerij", "Videografie"],
   color: "primary"
 }, {
