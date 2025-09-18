@@ -92,7 +92,6 @@ const WebDevelopmentPage = () => {
                   <li>• CMS integratie</li>
                   <li>• Geavanceerde SEO</li>
                   <li>• Performance monitoring</li>
-                  <li>• 3 maanden ondersteuning</li>
                 </ul>
                 
               </Card>

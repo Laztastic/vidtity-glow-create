@@ -55,14 +55,6 @@ const Contact = () => {
               </div>
               
               <div>
-                <label className="block text-sm font-medium mb-2">Budget Bereik</label>
-                <Input 
-                  placeholder="€5k - €10k, €10k+, enz." 
-                  className="bg-background/50 border-primary/30 focus:border-accent"
-                />
-              </div>
-              
-              <div>
                 <label className="block text-sm font-medium mb-2">Project Details</label>
                 <Textarea 
                   placeholder="Vertel ons over je project, doelen en visie..."
@@ -116,7 +108,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-2">Snel Spoor</h4>
-                  <p className="text-muted-foreground mb-2">Urgent project? Wij staan voor je klaar.</p>
+                  <p className="text-muted-foreground mb-2">Dringend project? Wij staan voor je klaar.</p>
                 </div>
               </div>
             </Card>
