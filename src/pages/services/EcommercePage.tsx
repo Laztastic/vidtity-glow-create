@@ -58,7 +58,7 @@ const EcommercePage = () => {
                 {[
                   "Conversie-geoptimaliseerde product pagina's",
                   "Frictionless checkout proces (1-click kopen)",
-                  "Geavanceerde betalingsmogelijkheden (iDEAL, PayPal, Stripe)",
+                  "Geavanceerde betalingsmogelijkheden (iDEAL, PayPal,...)",
                   "Realtime voorraad- en orderbeheer",
                   "Geavanceerde analytics en conversion tracking",
                   "SEO-geoptimaliseerd voor product zoekresultaten"
@@ -91,7 +91,6 @@ const EcommercePage = () => {
                   <li>• Geavanceerde analytics</li>
                   <li>• Multi-channel integratie</li>
                   <li>• Advanced SEO & marketing tools</li>
-                  <li>• 6 maanden support</li>
                 </ul>
                 
               </Card>
@@ -166,7 +165,7 @@ const EcommercePage = () => {
                 icon: CreditCard,
                 title: "Payment & Checkout",
                 description: "Frictionless betaalproces dat vertrouwen opbouwt en cart abandonment vermindert.",
-                features: ["iDEAL integratie", "PayPal/Stripe", "1-click checkout", "Guest checkout"]
+                features: ["iDEAL integratie", "PayPal", "1-click checkout", "Guest checkout"]
               },
               {
                 icon: BarChart3,
@@ -204,7 +203,7 @@ const EcommercePage = () => {
               PROVEN <span className="gradient-text">RESULTATEN</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Onze webshops presteren boven industriegemiddelden door focus op conversie-optimalisatie.
+              Webshops presteren boven industriegemiddelden door focus op conversie-optimalisatie.
             </p>
           </div>
 
