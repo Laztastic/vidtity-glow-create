@@ -1,5 +1,5 @@
 import { Sparkles, Clock, Zap } from "lucide-react";
-import heroImage from "@/assets/hero-bg-vidtify.jpg";
+import heroImage from "@/assets/hero-bg.jpg";
 
 const ComingSoon = () => {
   return (
