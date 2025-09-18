@@ -4,23 +4,23 @@ import { ExternalLink, Code, Palette } from "lucide-react";
 const projects = [{
   title: "VONQUE.BE",
   category: "Interieur",
-  description: "Elegante website voor interieurwinkel met moderne productcatalogus en inspirerende galerijen.",
-  image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
-  tags: ["Interieur", "E-commerce", "Catalogus", "Design"],
+  description: "Elegante website voor interieurdesign met persoonlijke verhaal en inspirerende galerijen.",
+  image: "https://imgur.com/a/ORAr8qh?w=800&h=600&fit=crop",
+  tags: ["Interieur", "Projecten", "Gallerij", "Design"],
   color: "accent"
 }, {
   title: "LAMBRECS.BE",
   category: "Fotografie",
-  description: "Professionele portfolio website voor foto- en videograaf met dynamische galerij en booking systeem.",
-  image: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=600&fit=crop",
-  tags: ["Fotografie", "Portfolio", "Galerij", "Booking"],
+  description: "Professionele portfolio website voor foto- en videograaf met dynamische galerij.",
+  image: "https://imgur.com/a/0O9UEL0?w=800&h=600&fit=crop",
+  tags: ["Fotografie", "Portfolio", "Galerij", "Videografie"],
   color: "primary"
 }, {
   title: "VANEYCKTYRECENTER.BE",
   category: "Automotive",
-  description: "Moderne website voor bandenhandelaar en afspraak planning systeem.",
+  description: "Moderne website voor bandenhandelaar met tool om bandenmaat aan te geven.",
   image: "https://impro.usercontent.one/appid/oneComWsb/domain/vaneycktyrecenter.be/media/vaneycktyrecenter.be/onewebmedia/Final%20ICON.png?etag=%22d360fd-64ed8b07%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=743%2B456&extract=0%2B0%2B743%2B455?w=800&h=600&fit=crop",
-  tags: ["Automotive", "Banden", "Service"],
+  tags: ["Nieuwe banden en velgen", "Bandenreparatie", "TPMS sensoren"],
   color: "accent"
 }];
 const Portfolio = () => {
